@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/qml/components/BackupModel.qml</file>
+        <file>res/qml/components/ButtonPrimary.qml</file>
+        <file>res/qml/components/CustTextField.qml</file>
+        <file>res/qml/components/IconicButton.qml</file>
+        <file>res/qml/components/NormalSearchBar.qml</file>
+        <file>res/qml/components/RoundImage.qml</file>
+        <file>res/qml/components/Task.qml</file>
+        <file>res/qml/components/TaskModel.qml</file>
+        <file>res/qml/components/TaskSection.qml</file>
+        <file>res/qml/js/app_functions.js</file>
+        <file>res/qml/main.qml</file>
+        <file>res/fonts/materialdesignicons-webfont.ttf</file>
+        <file>res/images/mask-24.png</file>
+        <file>res/images/prof-pic.jpg</file>
+    </qresource>
+</RCC>
