@@ -8,7 +8,6 @@ TodaStorage::TodaStorage(QObject *parent):
 }
 
 void TodaStorage::readFile() {
-    QFile file;
     file.setFileName(t_fileName);
     QDir::setCurrent(".");
 
