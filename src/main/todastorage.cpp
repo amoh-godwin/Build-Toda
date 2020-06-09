@@ -19,6 +19,7 @@ void TodaStorage::readFile() {
     } else {    // if it doesn't exist create it
 
         file.open(QIODevice::ReadWrite);
+        t_read_contents = "";
         file.write("");
         file.close();
 
@@ -28,5 +29,7 @@ void TodaStorage::readFile() {
 }
 
 void TodaStorage::saveFile(QString contents) {
-    //
+    file.open(QIODevice::WriteOnly);
+    file.write(contents.toUtf8()); // convert QString to QByteArray
+    file.close();
 }
